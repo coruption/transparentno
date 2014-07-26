@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Transparentno.hr</title>
+    <meta name="description" content="Transparentno.hr je servis koji daje uvid u podatke o poslovanju poslovnih subjekata, obveznika poreza na dobit.">
+    <meta name="keywords" content="poslovanje, zaposlenici, dioničko društvo, d.o.o., obrt, bilanca, dobit, blokada, koncesije, predstečajna nagodba">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<!-- https://dl.dropboxusercontent.com/u/1067648/-->
+    <script type="text/javascript">
+    function Clear(input){
+             if (input.value=="Upišite ime ili OIB poslovnog subjekta"){
+                document.getElementById('oib').innerHTML="Upišite ime ili OIB poslovnog subjekta";            }
+            else{
+                
+                document.getElementById('oib').innerHTML="";
+            }
+        }
+  
+     function SetPh (input) {
+           // body...
+           if (input.value==""){
+            document.getElementById('oib').innerHTML="Upišite ime ili OIB poslovnog subjekta";
+           }
+           else{
+            document.getElementById('oib').innerHTML="";
+           }
+       }  
+        
+        
+        
+
+    </script>
+</head>
+<body class="plava">
+    <div class="omot">
+        <div class="sadrzaj">
+            <div class="home">
+                <div class="logo group"> 
+                 <a href="https://www.transparentno.hr/"><img src="https://www.transparentno.hr/images/logo.png"></a></div>
+                <form class="unosoba group" action="https://www.transparentno.hr/trazi" method="post">
+                    <div class="unos">
+                        <label id="oib" for="search" style="display:inline" >Upišite ime ili OIB poslovnog subjekta</label>
+                        <input class="oibtekst" type="text" onfocus="Clear (this)" onblur="SetPh (this)"  name="search" valobserved="valobserved" >
+                        </input>
+                    </div>
+                    <a class="trazi" href="#"> <span>TRAŽI<span class="arrow"></span></span></a>
+                </form>
+                <div class="footer group">
+                    <a class="footlink" href="https://www.transparentno.hr/onama">O Transparentno.hr</a>
+                    <a class="footlink" href="https://www.transparentno.hr/pitanja">Česta pitanja</a>
+                    <a class="footlink" href="https://www.transparentno.hr/uvjeti">Uvjeti korištenja</a>
+                    <span>© 2013<a class="linkFina" href="http://www.fina.hr/"> Fina</a> </span>
+
+                </div>
+
+            </div>
+        </div>   
+    </div>
+</body>
+</html>
