@@ -279,7 +279,7 @@ input{
     z-index:100
 }
 .arrow{
-    background-image:url("images.png"); 
+    background-image:url("/home/ante/Work/transparentno/images/images.png"); 
     display:inline-block;
     vertical-align:middle;
     background-position:0 -100px;
@@ -403,8 +403,7 @@ p{
 
 }
 .cat-trend{
-    background: url('/home/ante/Downloads/Sublime Text 2/project/images.png') no-repeat scroll 0% 0% transparent;
-    background: url('https://dl.dropboxusercontent.com/u/1067648/images.png') no-repeat scroll 0% 0% transparent;
+    background: url('/home/ante/Work/transparentno/images/images.png') no-repeat scroll 0% 0% transparent;
     position: absolute;
     right: 0px;
     top: 0px;
@@ -417,8 +416,7 @@ h2 {
     color: #FFF;
 }
 .info {
-    background: url('/home/ante/Downloads/Sublime Text 2/project/images.png') no-repeat scroll 0% 0% transparent;
-    background: url('https://dl.dropboxusercontent.com/u/1067648/images.png') no-repeat scroll 0% 0% transparent;
+    background: url('/home/ante/Work/transparentno/images/images.png') no-repeat scroll 0% 0% transparent;
     background-position: -153px 0px;
     width: 36px;
     height: 36px;
@@ -484,8 +482,7 @@ select {
 }
 
 .cat-var-trend{
-    background: url('/home/ante/Downloads/Sublime Text 2/project/images.png') no-repeat scroll 0% 0% transparent;
-    background: url('https://dl.dropboxusercontent.com/u/1067648/images.png') no-repeat scroll 0% 0% transparent;
+    background: url('/home/ante/Work/transparentno/images/images.png') no-repeat scroll 0% 0% transparent;
     width: 1.5em;
     height: auto;
     float: right;
@@ -543,8 +540,7 @@ select {
 .pic {
     display: inline-block;
     vertical-align: middle;
-    background: url('/home/ante/Downloads/Sublime Text 2/project/images.png') no-repeat scroll 0% 0% transparent;
-    background: url('https://dl.dropboxusercontent.com/u/1067648/images.png') no-repeat scroll 0% 0% transparent;
+    background: url('/home/ante/Work/transparentno/images/images.png') no-repeat scroll 0% 0% transparent;
 }
 .pic-badge {
     background-position: -200px 0px;
