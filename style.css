@@ -1,4 +1,3 @@
-
 * {
     margin: 0px;
     padding: 0px;
@@ -9,10 +8,11 @@ body{
     
     font-size: 90%;
     font-family: Arial, sans-serif;
-    text-align: center;
+    
     min-width: 240px;
     overflow-x: hidden;
     background: none repeat scroll 0% 0% #FFF;
+    color: #222;
     
 }
 .plava{
@@ -22,6 +22,9 @@ body{
     float: left;
     width: 100%;
 
+}
+.general{
+    margin: 5%;
 }
 .sadrzaj{
 
@@ -80,7 +83,7 @@ img{
     background: linear-gradient( to bottom, #9BDB21 0px, #83BA0C 100%) repeat scroll 0% 0% transparent;
     margin-top: 0.5em
 }
-span{
+.footer span{
         position: relative;
         font-size: 1.3em;
 }
@@ -168,7 +171,20 @@ input{
     color: #006980;
 
 }
-
+.vingd, .cat {
+    margin: 5%;
+}
+.cat-var ul li {
+    float: left;
+    width: 100%;
+}
+.footlinks .footlink, .footlinks span {
+    display: block;
+    padding: 0.5em 1em;
+}
+.footlinks .footlink {
+    color: #FFF;
+}
 @media only screen and (min-width:640px){
     .sadrzaj{
         width:640px
@@ -221,8 +237,27 @@ input{
 
 
     }
-    .home{
+    .home, .cat, .basic, .general, .vingd {
         margin: 2.5%;
+    }
+    .cat-var ul li {
+    width: 48.25%;
+    }
+    .cat-var ul li:first-child {
+    margin-right: 3.5%;
+    }
+    .footlinks .footlink, .footlinks span {
+    display: inline;
+    }
+    .footlinks .footlink {
+    border-left: 1px solid #FFF;
+    float: left;
+    }
+    .footlinks .footlink:first-child {
+    border-left: 0px none;
+    }
+    .footlinks span {
+    float: right;
     }
 
 }
@@ -257,6 +292,297 @@ input{
     margin-top: -0.2em;
 }
 
+/*za indexsub*/
+
+.page-header{
+    float: left;
+    width: 100%;
+    position: relative;
+}
    
 
+.page-header .logo img {
+    width: 90%;
+    height: auto;
+    float: left;
+    margin: 0% 0% 0% 5%;
+}
 
+.search-form > .unos{
+    width: 60%
+    float:left;
+    float: left;
+    width: 60%
+}
+.search-form > .trazi{
+    width: 18%
+
+}
+.search-form > .trazi{
+    margin-left: 2%;
+    line-height: 2.7em;
+    height: 2.6em;
+}
+.tamnoplava{
+    background: none repeat scroll 0% 0% #014181;
+}
+.page-header .logo {
+    padding: 2.7% 0px;
+}
+p.bigger {
+    font-size: 1.15em;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.25em;
+}
+.sivi{
+    background-color: #E2E2E2;
+}
+h3 {
+    font-family: Exo,sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 0.12em;
+    color: #FFF;
+}
+.general h3 {
+    color: #014181;
+}
+dt, dd {
+    float: left;
+    width: 50%;
+    line-height: 1.6em;
+}
+dt {
+    clear: both;
+}
+.general dt {
+    color: #7F7F7F;
+}
+.general dt, .general dd {
+    line-height: 2em;
+}
+.tamnosiva{
+    background-color: #424242;
+}
+.vingd .trazi {
+    width: 93%;
+    font-weight: 400;
+    text-align: left;
+    color: #FFF;
+}
+.plava2{
+    background: linear-gradient(to bottom, #00B8D1 0px, #00A6C4 100%) repeat scroll 0% 0% transparent;
+}
+.vingd .trazi .currency-vingd {
+    float: right;
+    font-size: 0.8em;
+}
+.currency-vingd:before {
+    content: "VINGD ";
+}
+.vingd p {
+    color: #FFF;
+    margin-top: 0.5em;
+}
+p{
+    font-size: 1em;
+}
+.a-list-item:first-child:before {
+    content: "";
+}
+.a-list-item:before {
+    content: ", ";
+}
+.cat {
+    position: relative;
+}
+.status-undef{
+    
+    background: linear-gradient(to bottom, #999 0px, #AEAEAE 100%) repeat scroll 0% 0% transparent;
+
+}
+.cat-trend{
+    background: url('/home/ante/Downloads/Sublime Text 2/project/images.png') no-repeat scroll 0% 0% transparent;
+    background: url('https://dl.dropboxusercontent.com/u/1067648/images.png') no-repeat scroll 0% 0% transparent;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: none;
+}
+h2 {
+    font-family: Exo,sans-serif;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #FFF;
+}
+.info {
+    background: url('/home/ante/Downloads/Sublime Text 2/project/images.png') no-repeat scroll 0% 0% transparent;
+    background: url('https://dl.dropboxusercontent.com/u/1067648/images.png') no-repeat scroll 0% 0% transparent;
+    background-position: -153px 0px;
+    width: 36px;
+    height: 36px;
+    float: right;
+    margin-right: 2.5%;
+}
+.cat-var {
+    padding: 0.6% 3.5% 0px;
+    margin-top: 0.25em;
+    line-height: 3em;
+}
+.white {
+    background-color: #FFF;
+}
+.cat-var-name {
+    float: left;
+    font-weight: 700;
+}
+
+.cat-var-value {
+    float: right;
+    text-align: right;
+}
+@font-face {
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/exo/Exo-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/exo/Exo-Bold-webfont.woff") format("woff"), url("../fonts/exo/Exo-Bold-webfont.ttf") format("truetype"), url("../fonts/exo/Exo-Bold-webfont.svg#ExoBold") format("svg");
+}
+h4 {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    color: #FFF;
+}
+select {
+    width: 100%;
+    height: 3em;
+    margin-bottom: 1em;
+    padding: 0.6em;
+}
+.cat-select {
+    font-size: 1.2em;
+    height: 2.5em;
+    padding: 0.5em;
+    margin-bottom: 0.84em;
+    color: #666;
+}
+.cat-select-option {
+    padding: 0px 0.5em;
+}
+.cat-header {
+    color: #FFF;
+    font-size: 1em;
+    line-height: 2em;
+}
+.cat-header-trend {
+    width: 4em;
+    text-align: center;
+    margin-right: 0.7em;
+    float: right;
+    font-size: 0.8em;
+}
+
+.cat-var-trend{
+    background: url('/home/ante/Downloads/Sublime Text 2/project/images.png') no-repeat scroll 0% 0% transparent;
+    background: url('https://dl.dropboxusercontent.com/u/1067648/images.png') no-repeat scroll 0% 0% transparent;
+    width: 1.5em;
+    height: auto;
+    float: right;
+    margin-top: 0.7em;
+    margin-left: 1em;
+}
+.trend-undef > .cat-var-trend {
+    background-position: -150px -50px;
+    width: 24px;
+    height: 22px;
+}
+.currency-kn:after {
+    content: " kn";
+}
+.fixed {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+.cat-var.sub {
+    margin-top: 0px;
+    margin-bottom: 0.75em;
+    color: #FFF;
+}
+.trans {
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.3);
+}
+.cat-var ul {
+    list-style-type: none;
+}
+.cat-var .description {
+    position: relative;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    float: left;
+    line-height: 1.5em;
+    font-family: Arial,sans-serif;
+}
+.cat-var .badge {
+    display: none;
+    font-family: Exo,sans-serif;
+    position: relative;
+    float: right;
+    width: 5em;
+    line-height: 1.5em;
+}
+.omot.status-undef .badge {
+    color: #999;
+}
+.description > .bigbold {
+    font-weight: 700;
+}
+
+.pic {
+    display: inline-block;
+    vertical-align: middle;
+    background: url('/home/ante/Downloads/Sublime Text 2/project/images.png') no-repeat scroll 0% 0% transparent;
+    background: url('https://dl.dropboxusercontent.com/u/1067648/images.png') no-repeat scroll 0% 0% transparent;
+}
+.pic-badge {
+    background-position: -200px 0px;
+    width: 80px;
+    height: 80px;
+}
+.cat-var .badge-image {
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.cat-var .badge-text {
+    position: absolute;
+    top: 1.5em;
+    left: 0.4em;
+    right: 0px;
+    text-align: center;
+    font-size: 1.4em;
+}
+.badge-text > .bigbold {
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+.foot p {
+    color: #BBB;
+    font-size: 1em;
+}
+.foot a {
+    color: #00A6C4;
+}
+.footlinks {
+    padding: 0.9em 0px;
+    text-align: center;
+}
+.footlinks span, .footlinks a {
+    color: #BBB;
+}
+.footlinks a {
+    text-decoration: none;
+}
